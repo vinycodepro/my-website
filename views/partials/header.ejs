@@ -1,0 +1,18 @@
+<header class="header">
+    <nav class="navbar">
+        <div class="nav-brand">
+            <a href="/">MyWebsite</a>
+        </div>
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="/" class="nav-link <%= currentPage === 'home' ? 'active' : '' %>">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="/about" class="nav-link <%= currentPage === 'about' ? 'active' : '' %>">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="/contact" class="nav-link <%= currentPage === 'contact' ? 'active' : '' %>">Contact</a>
+            </li>
+        </ul>
+    </nav>
+</header>
